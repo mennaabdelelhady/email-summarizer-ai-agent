@@ -42,6 +42,8 @@ dotnet run
 Open your browser at: **http://localhost:5000** → Swagger UI loads automatically!
 
 ---
+### n8n AI Agent Workflow
+![n8n Workflow](n8n-workflow.png)
 
 ## API Endpoints
 

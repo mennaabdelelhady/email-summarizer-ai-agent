@@ -1,8 +1,8 @@
-# 📧 Email Summarizer API — ASP.NET Core MVC
+# Email Summarizer API — ASP.NET Core MVC
 
 An ASP.NET Core Web API that connects to your **n8n AI Agent workflow** (powered by Groq) to summarize emails into bullet points.
 
-## 🏗️ Architecture (MVC Pattern)
+## Architecture (MVC Pattern)
 
 ```
 POST /api/email/summarize
@@ -20,7 +20,7 @@ POST /api/email/summarize
   [JSON Response]          ← View/Output (V)
 ```
 
-## 🚀 Setup & Run
+## Setup & Run
 
 ### Prerequisites
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
@@ -43,7 +43,7 @@ Open your browser at: **http://localhost:5000** → Swagger UI loads automatical
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### POST `/api/email/summarize`
 Summarizes an email using the n8n AI Agent.
@@ -88,7 +88,7 @@ Health check endpoint.
 
 ---
 
-## 🧪 Test with Postman
+## Test with Postman
 
 ```
 POST http://localhost:5000/api/email/summarize
@@ -101,7 +101,7 @@ Content-Type: application/json
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 Edit `appsettings.json` to change the n8n webhook URL:
 
@@ -114,8 +114,10 @@ Edit `appsettings.json` to change the n8n webhook URL:
 ```
 
 ---
+### Summarize Endpoint
+![Summarize Endpoint](summarize.png)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 EmailSummarizerAPI/
